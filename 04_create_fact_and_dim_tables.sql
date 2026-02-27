@@ -29,6 +29,5 @@ CREATE TABLE fact_product_to_orders(
     quantity INT,
     discount NUMERIC,
     sales NUMERIC,
-    profit NUMERIC,
-    PRIMARY KEY (product_id, order_id)
+    profit NUMERIC
 );
