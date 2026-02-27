@@ -1,13 +1,21 @@
 /*
-This creates various dimension and fact tables to structure and organize the raw data.
+Creates dimension and fact tables to structure and organize the data.
 */
 
+CREATE TABLE dim_cities(
+    city_id INT PRIMARY KEY,
+    city_name TEXT,
+    country_name TEXT,
+    state_name TEXT,
+    postal_code INT,
+    region TEXT
+);
 
 CREATE TABLE dim_customers(
     customer_id VARCHAR(8) PRIMARY KEY,
     customer_name TEXT,
-    segment TEXT
-    -- ACHTUNG - Stadt etc. fehlt noch
+    segment TEXT,
+    city_id INT REFERENCES dim_cities(city_id)
 );
 
 CREATE TABLE fact_orders(

@@ -1,5 +1,5 @@
 /*
-This creates a new table to load the raw data into. (from csv-file)
+Creates a table to store the raw data that is imported from the csv file.
 */
 
 CREATE TABLE raw_superstore(

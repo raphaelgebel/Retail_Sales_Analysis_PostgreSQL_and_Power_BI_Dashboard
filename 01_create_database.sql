@@ -1,5 +1,5 @@
 /*
-This creates a database for the project.
+Creates the project database.
 */
 
 CREATE DATABASE superstore;
