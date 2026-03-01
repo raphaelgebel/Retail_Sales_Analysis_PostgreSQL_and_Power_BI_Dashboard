@@ -11,6 +11,20 @@ The project includes:
 - Connecting Power BI to PostgreSQL via Power Query
 - Building interactive and visual dashboards in Power BI
 
+## Final Dashboards
+
+1. **Retail Sales Dashboard**
+
+This dashboard provides a high-level executive summary for Orders, Sales and Profit of a Superstore selling various products.
+
+![Retail Sales Dashboard](Screenshot_Retail_Sales_Dashboard.jpg)
+
+2. **Profit Deep Dive**
+
+This dashboard focuses on the profit in more detail.
+
+![Profit Deep Dive](Screenshot_Profit_Deep_Dive.jpg)
+
 ## Dataset
 The dataset used in this project is the 'Superstore dataset' available on Kaggle:
 https://www.kaggle.com/datasets/vivek468/superstore-dataset-final
@@ -37,11 +51,3 @@ It consists of the following tables:
 - **Microsoft Power BI** - Data visualization and dashboard creation
 - **Data Analysis Expressions (DAX)** - Creating measures within Power BI
 - **Visual Studio Code** - Writing SQL queries
-
-## Final Dashboards
-
-1. **Retail Sales Dashboard**
-This dashboard provides a high-level executive summary for Orders, Sales and Profit of a Superstore selling various products.
-
-2. **Profit Deep Dive**
-This dashboard focuses on the profit in more detail.
