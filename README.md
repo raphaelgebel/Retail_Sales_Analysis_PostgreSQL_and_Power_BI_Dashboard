@@ -1,5 +1,5 @@
 ## PostgreSQL Database and Power BI Dashboard for Retail Sales Analysis
-This project demonstrates how to transform raw retail data into a structured PostgreSQL database and build interactie dashboards in Power BI for business analysis.
+This project demonstrates how to transform raw retail data into a structured PostgreSQL database and build interactive dashboards in Power BI for business analysis.
 The goal is to simulate a real-world business intelligence project.
 From database design and data transformation to interactive dashboard development.
 
