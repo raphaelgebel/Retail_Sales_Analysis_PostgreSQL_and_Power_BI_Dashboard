@@ -6,7 +6,7 @@ From database design and data transformation to interactive dashboard developmen
 ## Overview
 The project includes:
 - Designing and setting up a PostgreSQL database
-- Transforming a single raw dataset into facf and dimension tables (star schema)
+- Transforming a single raw dataset into fact and dimension tables (star schema)
 - Loading the transformed data into the database tables
 - Connecting Power BI to PostgreSQL via Power Query
 - Building interactive and visual dashboards in Power BI
